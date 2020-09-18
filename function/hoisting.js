@@ -1,9 +1,13 @@
 // Interperedit
+// JS in pre interpreter time
 var name;
-f() // f is running
 function f() {
   console.log('f is running...');
 }
+
+/*
+ * Basically in pre interpret stage(Before execute an js script), JS will sotre let, const variables in uninitialized value, var to undefined and functon statements to reference of their own in memory,
+*/
 
 
 /* Hoisting */
@@ -47,3 +51,7 @@ const /* let */ f = function f() {
   console.log('f is running...');
 }
 f()
+
+/* Articles: 
+1) https://bit.ly/3c8xabk
+*/
