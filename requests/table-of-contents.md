@@ -1,5 +1,5 @@
 ## Requests
-- [Fundamentals]
+- [Fundamentals](fundamentals.js)
 - [XMLHttpRequest]
 - [Fetch]
 - [Axios]
