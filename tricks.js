@@ -36,3 +36,8 @@ console.log(decimal);
 
 
 // Reference https://bit.ly/2H4w593
+
+/* Compact way to declare several variables */
+const number = 2,
+      string = 'String',
+      boolean = true;
